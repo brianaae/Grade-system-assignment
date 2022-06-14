@@ -1,0 +1,12 @@
+// Let grades A, A-,B, B-, C, 1,2, & 3 equal PASS
+//Let grades C-, 4 & 5 equal FAIL
+
+const grade = '4';
+
+if  (grade === 'A' || grade === 'A-' || grade === 'B' || grade === 'B-' || grade ==='C') 
+      console.log('PASS'); 
+else if (grade >= 1 && grade <= 3) 
+      console.log('PASS'); 
+ else  
+    console.log('FAIL');
+    
